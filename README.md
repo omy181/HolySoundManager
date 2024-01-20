@@ -1,10 +1,11 @@
 # HolySoundManager
 Better and Easier Sound Management Library for Unity
 
-# How to Set up
-Just Drag and Drop the HolySoundManager file into unity.
+## How to Set up
+Just Drag and Drop the HolySoundManager folder into unity.
 
-# Example
+## Example
+```
 using Holylib.HolySoundEffects;
 
 public AudioClip clip;
@@ -36,3 +37,4 @@ SoundEffectController.PlaySFX(clip)
 .RandomPitchRange(-0.5f,0.6f)
 .SetPitch(0.5f)
 .SetDontDestroyOnLoad();
+```
